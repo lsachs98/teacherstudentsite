@@ -1,0 +1,28 @@
+{
+  "name": "teacherstudentsite",
+  "version": "1.0.0",
+  "description": "Yuchen Zeng",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.16.1",
+    "mongodb": "^3.2.4",
+    "node-uuid": "^1.4.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsachs98/teacherstudentsite.git"
+  },
+  "author": "Lauren Sachs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lsachs98/teacherstudentsite/issues"
+  },
+  "homepage": "https://github.com/lsachs98/teacherstudentsite#readme"
+}

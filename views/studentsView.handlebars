@@ -1,0 +1,9 @@
+
+    <h3>{{firstName}} {{lastName}}</h3>
+    <h4>Submissions</h4>
+    <ul>
+    {{#each submissions}}
+        <li><a href = "http://localhost:3000/teacher/submission/{{_id}}">{{title}}</a></li>
+    {{/each}}
+    </ul>
+  

@@ -1,0 +1,16 @@
+
+
+        <div class="studentCourses">
+            <div class="courseBody">
+                <h2>{{courseCode}}</h2>
+                <h3>{{instructorName}}</h3>
+                <h4>Grade: {{grade}}</h4>
+                <div class="studentAssignments">
+                    <ul>
+                        {{#each assignments}}
+                            <li><a href = "http://localhost:3000/student/assignment/{{_id}}"> </a>{{title}}</a></li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </div>

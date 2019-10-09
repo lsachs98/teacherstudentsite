@@ -1,0 +1,19 @@
+
+
+    <h3>{{assignmentTitle}}</h3>
+    <p>{{description}}</p>
+        {{#if grade}}
+            <h4>{{grade}}</h4>
+        {{/if}}
+
+        {{#if gradeable}}
+            <div class="postGradeForm">
+                <form action='/gradeSubmission/{{submissionID}}' method = "POST">
+                    <input class="grade" name="grade" type="number" >
+                    <input type="submit" value="Submit Grade">
+                </form>
+            </div>  
+        {{/if}}
+
+
+    

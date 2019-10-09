@@ -1,0 +1,26 @@
+
+
+        <h3>{{firstName}} {{lastName}}</h3>
+
+        <h3>registered classes</h3>
+        <div class="studentcourses">
+            <ul>
+            {{#each courses}}
+                <li><a href = "http://localhost:3000/studentcourse/{{_id}}"> {{courseCode}}</a></li>
+            {{/each}}
+            </ul>   
+        </div>
+
+        <h3>assignments</h3>
+        <div class="studentassignments">
+            <ul>
+            {{#each assignments}}
+                <li><a href = "http://localhost:3000/studentsubmission/{{_id}}"> {{title}} {{courseCode}}</a></li>
+            {{/each}}
+            </ul>
+        </div>
+
+
+
+
+

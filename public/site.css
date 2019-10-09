@@ -1,0 +1,35 @@
+body {
+    font-size: 8pt;
+    font-family: "Arial"
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 14pt;
+}
+
+h2 {
+	font-size: 12pt;
+	font-color: red;
+
+}
+
+a:link {
+	color: purple;
+}
+
+input {
+
+	border: 1px solid black;
+  	border-radius: 4px;
+}
+
+
+p {
+    font-size: 8pt;
+
+}
